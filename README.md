@@ -162,6 +162,6 @@ public static Pattern compile (String literal)
 public static Pattern compile (String literal, int flags)
 ```
 Список возможных значений параметра `flags` определен в классе `Pattern` и доступен как статические поля класса. Например ниже поиск совпадений с шаблоном будет осуществляться без учета регистра символов:
-``
+```
 Pattern pattern = Pattern.compile("java", Pattern.CASE_INSENSITIVE);
-``
+```
